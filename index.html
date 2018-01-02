@@ -11,18 +11,44 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width">
         <meta name="keywords" content="mershack okoe, mershack, okoe, mershack okoe fiu" /> 
         <style type="text/css">
-            #header{
+            .main-content{
 
                 height: 100%;
+				margin-left: 280px;
+
 
             }
-            #mypic{
-                float: left;
-            }
+			
+			.side-div {
+			    float: left;
+
+			}
+			
+			.document-title {
+				text-transform: uppercase;
+				color: gray;
+				margin-top: 10px;
+			}
+			
+			.document-title a {
+				color: #217f8a
+			}
+			
+			.document-title a:visited {
+				color: #217f8a
+			}
+			
+          
+			.below-picture {
+				margin-top: 15px;
+				font-size: 0.9rem;
+
+			}
+			
             #content-wrapper{
-                max-width: 800px;
+                max-width: 1000px;
                 min-width:800px;
-                width: 800px;
+                width: 1000px;
                 margin: 0 auto 5px;
             }
             #myname{
@@ -32,12 +58,14 @@ and open the template in the editor.
             }
             #aboutme{
                 font-size: 18px;          
-                margin-left: 280px;
                 margin-top: 10px;
             }
             #position{
                 font-size: 22px;
             }
+			.mershack-photo {
+				width: 200px
+			}
             .section-title{
                 font-size:22px; 
                 font-style:italic; 
@@ -73,28 +101,66 @@ and open the template in the editor.
     <body>
         <div id="content-wrapper">
 
-            <div id="header">           
-                <div id="mypic" >
-                    <img src="images/mershack.png" /> <br /> 
-                    <p id="email"><strong><em>email</em></strong>: mokoe001 [<em>at</em>] fiu.edu</p>
-                </div>
+			<div class="side-div" >
+                    
+					<img src="images/mershack.jpg" class="mershack-photo"/> <br /> 
+					
+					
+					<div class="below-picture">
+						<div class="contact"> <strong>CONTACT: </strong> <em>mokoe001@fiu.edu </em></div>
+						<div class="document-title"><a href="cv-mershack-okoe.pdf" target="_blank">Curriculum Vitae</a></div>
+						<!--<div class="document-title"><a href="">Teaching Statement</a></div>
+						<div class="document-title"><a href="">Research Statement</div> -->
+						
+						
+						
+					</div>
+					
+										
+			</div>
+			
+            <div class="main-content">           
+                
                 <div id="aboutme">
                     <p id="myname"> Mershack Okoe</p>
 
-                    <p>I obtained my PhD from <a href="http://cis.fiu.edu/"> School of Computing and Information Sciences (SCIS)</a> at <a href="http://www.fiu.edu/"> FIU </a>. </p>
-                    <p>I was a member of the Information Visualization group, advised by<a href="http://www.staff.city.ac.uk/~sbkg566/"> Dr. Radu Jianu</a>.</p>
+                    <p> 
+						I obtained my PhD from
+						<a href="http://cis.fiu.edu/"> School of Computing and Information Sciences (SCIS)</a> at 
+						<a href="http://www.fiu.edu/"> FIU </a>. I was a member of the Information Visualization group, and my advisor was 
+						<a href="http://www.staff.city.ac.uk/~sbkg566/"> Dr. Radu Jianu</a>.
+					</p>
                     <p>My research work explores evaluation of visualization systems, and the use of Crowdsourcing to simplify the evaluation process.</p>
                     <p>Before joining FIU, I obtained an MSc. in Advanced Computing from <a href="http://www.bris.ac.uk/">University of Bristol</a> in the UK, and a BSc. in Computer Science from <a href="http://knust.edu.gh/"> Kwame Nkrumah University of Science and Technology</a> in Ghana.</p>
 
-                </div>
-            </div>
-            <hr>
+					
+                </div>			
+				
+				
+				
+				<hr>
+						
             <p class="section-title"> Publications </p>
 
 
-            <p class="subsection-title"> Journals </p>
 
             <ol>
+		
+				<li>
+					Mershack Okoe, Radu Jianu, Stephen Kobourov. 
+					<strong>Revisited Network Representations. </strong>
+						In <em>25th Symposium on Graph Drawing</em>, 2017.
+						
+						<p></p>
+				</li>
+				<li>
+					Angela R Laird, Michael C Riedel, Mershack Okoe, Radu Jianu, Kimberly L Ray, 
+					Simon B Eickhoff, Stephen M Smith, Peter T Fox, Matthew T Sutherland. 
+					<strong>Heterogeneous fractionation profiles of meta-analytic coactivation networks.</strong>
+						In <em>NeuroImage</em>, 2017.
+						
+						<p></p>
+				</li>
 			
 				<li>
 			         Mershack Okoe, and Radu Jianu. 
@@ -103,26 +169,27 @@ and open the template in the editor.
                                        &nbsp;<a href=""></a>	
 										<p></p>
 				</li>
-			
-			
-                <li>Mershack Okoe, Sayeed Safayet, and Radu Jianu.
-                    <b>A Gaze-enabled Graph Visualization to Improve Graph Reading Tasks.
-                    </b>  
-                    In <i> Eurovis2014 and Computer Graphics Forum Journal (CGF) </i> 2014.
-
-                    &nbsp;<a href="http://vizlab.cs.fiu.edu/papers/paper_EuroVis2014_gazegraph.pdf">(pdf)</a>
-
-                </li>
-            </ol>
-            <p class="subsection-title"> Posters and Extended Abstracts</p>
-            <ol>
-                 <li>Mershack Okoe and Radu Jianu.
+				
+				<li>Mershack Okoe and Radu Jianu.
                     <b>Ecological Validity in Quantitative User Studies - a Case Study in Graph Evaluation.</b>  
                     In <i> IEEE VIS 2015 poster program </i> 2015.  
                     &nbsp;<a href="papers/ecologicalValidity.pdf">(pdf)</a>
 					
 						<p></p>
-                </li>       
+                </li> 
+			
+			
+                <li>Mershack Okoe, Sayeed Safayet, and Radu Jianu.
+                    <b>A Gaze-enabled Graph Visualization to Improve Graph Reading Tasks.
+                    </b>  
+                    In <i> Eurovis2014 </i> and <i>Computer Graphics Forum Journal (CGF) </i> 2014.
+
+                    &nbsp;<a href="http://vizlab.cs.fiu.edu/papers/paper_EuroVis2014_gazegraph.pdf">(pdf)</a>
+					
+					<p></p>
+
+                </li>			
+				      
                 
                 <li>Mershack Okoe and Radu Jianu.
                     <b>GraphUnit: Evaluating Interactive Graph Visualization Using CrowdSourcing.</b>  
@@ -137,43 +204,48 @@ and open the template in the editor.
                     In <i> IEEE Visualization 2013 Poster Compendium </i> 2013.
                     &nbsp;<a href="papers/usingeyetracking.pdf">(pdf)</a>
                 </li>
+				
             </ol>
+            
             <br/>
             <br/>
             <br />
-			<div style="display:none;">
+			<div style="display:none">
 			
-			   <div id="clustrmaps-widget">
+				<div id="clustrmaps-widget">
 
-            </div>
-            <script type="text/javascript">
-                var _clustrmaps = {
-                    'url': 'http://users.cis.fiu.edu/~mokoe001/',
-                    'target': "_blank",
-                    'user': 1161215,
-                    'server': '4',
-                    'id': 'clustrmaps-widget',
-                    'version': 1,
-                    'date': '2015-03-09',
-                    'lang': 'en',
-                    'corners': 'square'};
-                (function() {
-                    var s = document.createElement('script');
-                    s.type = 'text/javascript';
-                    s.async = true;
-                    s.src = 'http://www4.clustrmaps.com/counter/map.js';
-                    var x = document.getElementsByTagName('script')[0];
-                    x.parentNode.insertBefore(s, x);
-                })();</script>
-            <noscript>
-            <a href="http://www4.clustrmaps.com/user/b8e11b7ff">
-                <img src="http://www4.clustrmaps.com/stats/maps-no_clusters/users.cis.fiu.edu-~mokoe001--thumb.jpg" alt="Locations of visitors to this page" />
-            </a></noscript>
+				</div>
+				<script type="text/javascript">
+					var _clustrmaps = {
+						'url': 'http://users.cis.fiu.edu/~mokoe001/',
+						'target': "_blank",
+						'user': 1161215,
+						'server': '4',
+						'id': 'clustrmaps-widget',
+						'version': 1,
+						'date': '2015-03-09',
+						'lang': 'en',
+						'corners': 'square'};
+					(function() {
+						var s = document.createElement('script');
+						s.type = 'text/javascript';
+						s.async = true;
+						s.src = 'http://www4.clustrmaps.com/counter/map.js';
+						var x = document.getElementsByTagName('script')[0];
+						x.parentNode.insertBefore(s, x);
+					})();</script>
+				<noscript>
+				<a href="http://www4.clustrmaps.com/user/b8e11b7ff">
+					<img src="http://www4.clustrmaps.com/stats/maps-no_clusters/users.cis.fiu.edu-~mokoe001--thumb.jpg" alt="Locations of visitors to this page" />
+				</a></noscript>
 
 			
 			</div>
          
             <hr />
+				
+            </div>
+            
 
         </div>
 
